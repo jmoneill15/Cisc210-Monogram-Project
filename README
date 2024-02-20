@@ -1,0 +1,12 @@
+This program creates an 8x8 grid as a base background, and the program runs to draw 
+specific pixels to be displayed in the grid. It starts of running by drawing pixels in 
+green to form the letter J for my first name. After having the pixels display for 1 
+second, the grid fills to all white to get a plain grid in the background. And then the 
+program calls for the pixels of my second initial "O" to be drawn in with green. After
+being on the screen for 1 second, the screen with the grid goes away as the program
+exits. 
+
+To compile this program with no Raspberry PI on the cisc210.cis.udel.edu, you use:
+    gcc -o jmoneill sigma-nopi.c -lncurses
+After it is compiled you can then run the program by entering:
+    ./jmoneill
