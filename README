@@ -10,3 +10,6 @@ To compile this program with no Raspberry PI on the cisc210.cis.udel.edu, you us
     gcc -o jmoneill sigma-nopi.c -lncurses
 After it is compiled you can then run the program by entering:
     ./jmoneill
+
+Example Image:
+
